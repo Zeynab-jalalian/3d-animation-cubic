@@ -21,10 +21,10 @@ body{
 }
 @keyframes rotate{
     0%{
-    transform:rotateX(-10deg) rotateY(0deg);
+    transform:rotateX(-30deg) rotateY(0deg) translateY(-100px);
     }
     100%{
-    transform:rotateX(-10deg)  rotateY(360deg);
+    transform:rotateX(-10deg)  rotateY(360deg) translateY(10px);
     }
 }
 .box div{
@@ -76,12 +76,12 @@ body{
     width: 100%;
     height: 100%;
     background: rgb(128, 0, 128);
-    transform: translateZ(-300px);
-    filter: blur(30px);
+    transform: translateZ(-350px);
+    filter: blur(20px);
     box-shadow: 
     0 0 200px rgb(128, 0, 128,0.4),
-    0 0 300px rgb(128, 0, 128,0.6),
-    0 0 400px rgb(128, 0, 128,0.8),
+    0 0 300px rgb(128, 0, 128,0.3),
+    0 0 400px rgb(128, 0, 128,0.2),
     0 0 500px rgb(128, 0, 128,1);
 }
 .bottom{
