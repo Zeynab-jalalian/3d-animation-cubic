@@ -94,3 +94,34 @@ body{
     background: linear-gradient(#151515,purple);
     transform: rotatex(270deg) translate3d(0,0,100px);
 }
+@media (max-width:400px){
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    .box div span:nth-child(2){
+       
+        transform: rotateY(0deg) translate3d(0,0,50px);
+    }
+    .box div span:nth-child(3){
+     
+        transform: rotateY(90deg) translate3d(0,0,50px);
+    }
+    .box div span:nth-child(4){
+       
+        transform: rotateY(180deg) translate3d(0,0,50px);
+    }
+    .box div span:nth-child(5){
+    
+        transform: rotateY(270deg) translate3d(0,0,50px);
+    }
+    .top{
+        transform:rotatex(90deg) translate3d(0,0,50px);
+    }
+    .bottom{
+        transform:rotatex(270deg) translate3d(0,0,50px);
+    }
+    .top::before{
+        transform: translateZ(-250px);
+    }
+}
